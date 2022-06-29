@@ -1,9 +1,11 @@
 package org.example.joyeria.vendedor;
 
+import co.com.sofka.domain.generic.DomainEvent;
 import org.example.joyeria.vendedor.event.*;
 import org.example.joyeria.vendedor.value.*;
 import co.com.sofka.domain.generic.AggregateEvent;
 
+import java.util.List;
 import java.util.Objects;
 import java.util.Optional;
 import java.util.Set;
@@ -22,6 +24,13 @@ public class Vendedor extends AggregateEvent<VendedorId> {
         super(entityId);
         subscribe(new VendedorChange(this));
     }
+
+    public static Vendedor from(VendedorId vendedorId, List<DomainEvent> events){
+        var vendedor= new Vendedor(vendedorId);
+        events.forEach(vendedor::applyEvent);
+        return vendedor;
+    }
+
 
     public void agregarCalificacion(CalificacionId entityId, Puntaje puntaje, Comentario comentario) {
         Objects.requireNonNull(entityId);
