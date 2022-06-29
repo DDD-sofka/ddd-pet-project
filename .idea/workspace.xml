@@ -5,27 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="47118781-813f-4a44-955a-41bd7b394e56" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/google-java-format.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pet-project-joyeria-ddd/domain.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pet-project-joyeria-ddd/domain/src/main/java/org/example/joyeria/cliente/Clasificacion.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pet-project-joyeria-ddd/domain/src/main/java/org/example/joyeria/cliente/Cliente.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pet-project-joyeria-ddd/domain/src/main/java/org/example/joyeria/cliente/ClienteChange.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pet-project-joyeria-ddd/domain/src/main/java/org/example/joyeria/cliente/Factura.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pet-project-joyeria-ddd/domain/src/main/java/org/example/joyeria/cliente/events/ClasificacionAgregada.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pet-project-joyeria-ddd/domain/src/main/java/org/example/joyeria/cliente/events/ClienteAgregado.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pet-project-joyeria-ddd/domain/src/main/java/org/example/joyeria/cliente/events/FacturaAgregada.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pet-project-joyeria-ddd/domain/src/main/java/org/example/joyeria/cliente/events/FechaDeUnaFacturaCambiada.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pet-project-joyeria-ddd/domain/src/main/java/org/example/joyeria/cliente/events/NombreDeUnClienteActualizado.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pet-project-joyeria-ddd/domain/src/main/java/org/example/joyeria/cliente/events/ProductoAsociado.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pet-project-joyeria-ddd/domain/src/main/java/org/example/joyeria/cliente/events/TipoDeUnaClasificacionCambiada.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pet-project-joyeria-ddd/domain/src/main/java/org/example/joyeria/cliente/events/VendedorAsociado.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pet-project-joyeria-ddd/domain/src/main/java/org/example/joyeria/cliente/values/ClasificacionId.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pet-project-joyeria-ddd/domain/src/main/java/org/example/joyeria/cliente/values/ClienteId.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pet-project-joyeria-ddd/domain/src/main/java/org/example/joyeria/cliente/values/FacteraId.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pet-project-joyeria-ddd/domain/src/main/java/org/example/joyeria/cliente/values/Fecha.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pet-project-joyeria-ddd/domain/src/main/java/org/example/joyeria/cliente/values/Nombre.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pet-project-joyeria-ddd/domain/src/main/java/org/example/joyeria/cliente/values/Tipo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/ddd-pet-project.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/ddd-pet-project.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
@@ -54,14 +34,37 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "/home/john/Desarrollo/Desarrollo_sofka/praticas-java/ddd-pet-project/pet-project-joyeria-ddd/domain/src/main/java/org/example/joyeria"
+    "last_opened_file_path": "C:/Users/Acer/Desktop/ddd-pet-project",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "project.propCompiler"
   }
 }]]></component>
-  <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/pet-project-joyeria-ddd/domain/src/main/java/org/example/joyeria" />
-    </key>
+  <component name="RunManager">
+    <configuration name="Unnamed" type="MavenRunConfiguration" factoryName="Maven" activateToolWindowBeforeRun="false">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list />
+            </option>
+            <option name="pomFileName" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method v="2" />
+    </configuration>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
