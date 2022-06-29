@@ -1,8 +1,8 @@
-package org.example.joyeria.vendedor.event;
+package org.example.joyeria.vendedor.events;
 
 import co.com.sofka.domain.generic.DomainEvent;
-import org.example.joyeria.vendedor.value.CalificacionId;
-import org.example.joyeria.vendedor.value.Comentario;
+import org.example.joyeria.vendedor.values.CalificacionId;
+import org.example.joyeria.vendedor.values.Comentario;
 
 public class ComentarioDeUnaCalificacionCambiado extends DomainEvent {
     private final CalificacionId entityId;

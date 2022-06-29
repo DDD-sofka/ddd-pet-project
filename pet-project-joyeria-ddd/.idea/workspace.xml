@@ -5,24 +5,26 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3312460c-01a3-4556-be91-bb9d7333966d" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/domain/src/main/java/org/example/joyeria/cliente/Clasificacion.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/domain/src/main/java/org/example/joyeria/cliente/Cliente.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/domain/src/main/java/org/example/joyeria/cliente/ClienteChange.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/domain/src/main/java/org/example/joyeria/cliente/Factura.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/domain/src/main/java/org/example/joyeria/cliente/events/ClasificacionAgregada.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/domain/src/main/java/org/example/joyeria/cliente/events/ClienteAgregado.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/domain/src/main/java/org/example/joyeria/cliente/events/FacturaAgregada.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/domain/src/main/java/org/example/joyeria/cliente/events/FechaDeUnaFacturaCambiada.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/domain/src/main/java/org/example/joyeria/cliente/events/NombreDeUnClienteActualizado.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/domain/src/main/java/org/example/joyeria/cliente/events/ProductoAsociado.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/domain/src/main/java/org/example/joyeria/cliente/events/TipoDeUnaClasificacionCambiada.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/domain/src/main/java/org/example/joyeria/cliente/events/VendedorAsociado.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/domain/src/main/java/org/example/joyeria/cliente/values/ClasificacionId.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/domain/src/main/java/org/example/joyeria/cliente/values/ClienteId.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/domain/src/main/java/org/example/joyeria/cliente/values/FacteraId.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/domain/src/main/java/org/example/joyeria/cliente/values/Fecha.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/domain/src/main/java/org/example/joyeria/cliente/values/Nombre.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/domain/src/main/java/org/example/joyeria/cliente/values/Tipo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/2/121314007849c9d17b21e811d472d357f06ffd49" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/domain/src/main/java/org/example/joyeria/vendedor/Area.java" beforeDir="false" afterPath="$PROJECT_DIR$/domain/src/main/java/org/example/joyeria/vendedor/Area.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/domain/src/main/java/org/example/joyeria/vendedor/Calificacion.java" beforeDir="false" afterPath="$PROJECT_DIR$/domain/src/main/java/org/example/joyeria/vendedor/Calificacion.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/domain/src/main/java/org/example/joyeria/vendedor/Vendedor.java" beforeDir="false" afterPath="$PROJECT_DIR$/domain/src/main/java/org/example/joyeria/vendedor/Vendedor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/domain/src/main/java/org/example/joyeria/vendedor/VendedorChange.java" beforeDir="false" afterPath="$PROJECT_DIR$/domain/src/main/java/org/example/joyeria/vendedor/VendedorChange.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/domain/src/main/java/org/example/joyeria/vendedor/event/AreaAgregada.java" beforeDir="false" afterPath="$PROJECT_DIR$/domain/src/main/java/org/example/joyeria/vendedor/events/AreaAgregada.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/domain/src/main/java/org/example/joyeria/vendedor/event/CalificacionAgregada.java" beforeDir="false" afterPath="$PROJECT_DIR$/domain/src/main/java/org/example/joyeria/vendedor/events/CalificacionAgregada.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/domain/src/main/java/org/example/joyeria/vendedor/event/ComentarioDeUnaCalificacionCambiado.java" beforeDir="false" afterPath="$PROJECT_DIR$/domain/src/main/java/org/example/joyeria/vendedor/events/ComentarioDeUnaCalificacionCambiado.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/domain/src/main/java/org/example/joyeria/vendedor/event/NombreCambiado.java" beforeDir="false" afterPath="$PROJECT_DIR$/domain/src/main/java/org/example/joyeria/vendedor/events/NombreCambiado.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/domain/src/main/java/org/example/joyeria/vendedor/event/NombreDeUnAreaCambiado.java" beforeDir="false" afterPath="$PROJECT_DIR$/domain/src/main/java/org/example/joyeria/vendedor/events/NombreDeUnAreaCambiado.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/domain/src/main/java/org/example/joyeria/vendedor/event/PuntajeDeUnaCalificacionCambiado.java" beforeDir="false" afterPath="$PROJECT_DIR$/domain/src/main/java/org/example/joyeria/vendedor/events/PuntajeDeUnaCalificacionCambiado.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/domain/src/main/java/org/example/joyeria/vendedor/event/VendedorCreado.java" beforeDir="false" afterPath="$PROJECT_DIR$/domain/src/main/java/org/example/joyeria/vendedor/events/VendedorCreado.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/domain/src/main/java/org/example/joyeria/vendedor/value/AreaId.java" beforeDir="false" afterPath="$PROJECT_DIR$/domain/src/main/java/org/example/joyeria/vendedor/values/AreaId.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/domain/src/main/java/org/example/joyeria/vendedor/value/CalificacionId.java" beforeDir="false" afterPath="$PROJECT_DIR$/domain/src/main/java/org/example/joyeria/vendedor/values/CalificacionId.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/domain/src/main/java/org/example/joyeria/vendedor/value/Comentario.java" beforeDir="false" afterPath="$PROJECT_DIR$/domain/src/main/java/org/example/joyeria/vendedor/values/Comentario.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/domain/src/main/java/org/example/joyeria/vendedor/value/Nombre.java" beforeDir="false" afterPath="$PROJECT_DIR$/domain/src/main/java/org/example/joyeria/vendedor/values/Nombre.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/domain/src/main/java/org/example/joyeria/vendedor/value/Puntaje.java" beforeDir="false" afterPath="$PROJECT_DIR$/domain/src/main/java/org/example/joyeria/vendedor/values/Puntaje.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/domain/src/main/java/org/example/joyeria/vendedor/value/VendedorId.java" beforeDir="false" afterPath="$PROJECT_DIR$/domain/src/main/java/org/example/joyeria/vendedor/values/VendedorId.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

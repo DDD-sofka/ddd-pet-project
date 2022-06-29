@@ -1,8 +1,8 @@
 package org.example.joyeria.vendedor;
 
 import co.com.sofka.domain.generic.DomainEvent;
-import org.example.joyeria.vendedor.event.*;
-import org.example.joyeria.vendedor.value.*;
+import org.example.joyeria.vendedor.events.*;
+import org.example.joyeria.vendedor.values.*;
 import co.com.sofka.domain.generic.AggregateEvent;
 
 import java.util.List;
@@ -31,6 +31,11 @@ public class Vendedor extends AggregateEvent<VendedorId> {
         return vendedor;
     }
 
+    public void agregarArea(AreaId entityId, Nombre nombre) {
+        Objects.requireNonNull(entityId);
+        Objects.requireNonNull(nombre);
+        appendChange(new AreaAgregada(entityId, nombre)).apply();
+    }
 
     public void agregarCalificacion(CalificacionId entityId, Puntaje puntaje, Comentario comentario) {
         Objects.requireNonNull(entityId);
@@ -39,34 +44,30 @@ public class Vendedor extends AggregateEvent<VendedorId> {
         appendChange(new CalificacionAgregada(entityId, puntaje, comentario)).apply();
     }
 
-    public void agregarArea(AreaId entityId, Nombre nombre) {
-        Objects.requireNonNull(entityId);
-        Objects.requireNonNull(nombre);
-        appendChange(new AreaAgregada(entityId, nombre)).apply();
-    }
-
-    public void cambiarPuntajeDeUnaCalificacion(CalificacionId entityId, Puntaje puntaje) {
-        appendChange(new PuntajeDeUnaCalificacionCambiado(entityId, puntaje)).apply();
-    }
-
     public void cambiarComentarioDeUnaCalificacion(CalificacionId entityId, Comentario comentario) {
         appendChange(new ComentarioDeUnaCalificacionCambiado(entityId, comentario)).apply();
+    }
+
+    public void cambiarNombre(VendedorId entityId, Nombre nombre){
+        appendChange(new NombreCambiado(entityId,nombre)).apply();
     }
 
     public void cambiarNombreDeUnArea(AreaId entityId, Nombre nombre) {
         appendChange(new NombreDeUnAreaCambiado(entityId, nombre)).apply();
     }
 
-    public Optional<Calificacion> getCalificacionPorId(CalificacionId calificacionId) {
+    protected Optional<Calificacion> getCalificacionPorId(CalificacionId calificacionId) {
         return calificaciones()
                 .stream()
                 .filter(calificacion -> calificacion.identity().equals(calificacionId))
                 .findFirst();
     }
 
-    public void cambiarNombre(VendedorId entityId, Nombre nombre){
-        appendChange(new NombreCambiado(entityId,nombre)).apply();
+    public void cambiarPuntajeDeUnaCalificacion(CalificacionId entityId, Puntaje puntaje) {
+        appendChange(new PuntajeDeUnaCalificacionCambiado(entityId, puntaje)).apply();
     }
+
+
 
     public Nombre nombre() {
         return nombre;

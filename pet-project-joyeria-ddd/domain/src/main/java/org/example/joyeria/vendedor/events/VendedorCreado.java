@@ -1,8 +1,8 @@
-package org.example.joyeria.vendedor.event;
+package org.example.joyeria.vendedor.events;
 
 import co.com.sofka.domain.generic.DomainEvent;
-import org.example.joyeria.vendedor.value.Nombre;
-import org.example.joyeria.vendedor.value.VendedorId;
+import org.example.joyeria.vendedor.values.Nombre;
+import org.example.joyeria.vendedor.values.VendedorId;
 
 public class VendedorCreado extends DomainEvent {
     private final VendedorId entityId;

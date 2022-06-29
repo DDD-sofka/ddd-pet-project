@@ -1,8 +1,8 @@
 package org.example.joyeria.vendedor;
 
 import co.com.sofka.domain.generic.Entity;
-import org.example.joyeria.vendedor.value.AreaId;
-import org.example.joyeria.vendedor.value.Nombre;
+import org.example.joyeria.vendedor.values.AreaId;
+import org.example.joyeria.vendedor.values.Nombre;
 
 import java.util.Objects;
 

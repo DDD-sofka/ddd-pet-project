@@ -1,7 +1,7 @@
 package org.example.joyeria.vendedor;
 
 import co.com.sofka.domain.generic.EventChange;
-import org.example.joyeria.vendedor.event.*;
+import org.example.joyeria.vendedor.events.*;
 
 import java.util.HashSet;
 
