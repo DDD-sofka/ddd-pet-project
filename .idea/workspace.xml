@@ -1,13 +1,45 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="47118781-813f-4a44-955a-41bd7b394e56" name="Changes" comment="" />
+    <list default="true" id="47118781-813f-4a44-955a-41bd7b394e56" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/google-java-format.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pet-project-joyeria-ddd/domain.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pet-project-joyeria-ddd/domain/src/main/java/org/example/joyeria/cliente/Clasificacion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pet-project-joyeria-ddd/domain/src/main/java/org/example/joyeria/cliente/Cliente.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pet-project-joyeria-ddd/domain/src/main/java/org/example/joyeria/cliente/ClienteChange.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pet-project-joyeria-ddd/domain/src/main/java/org/example/joyeria/cliente/Factura.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pet-project-joyeria-ddd/domain/src/main/java/org/example/joyeria/cliente/events/ClasificacionAgregada.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pet-project-joyeria-ddd/domain/src/main/java/org/example/joyeria/cliente/events/ClienteAgregado.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pet-project-joyeria-ddd/domain/src/main/java/org/example/joyeria/cliente/events/FacturaAgregada.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pet-project-joyeria-ddd/domain/src/main/java/org/example/joyeria/cliente/events/FechaDeUnaFacturaCambiada.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pet-project-joyeria-ddd/domain/src/main/java/org/example/joyeria/cliente/events/NombreDeUnClienteActualizado.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pet-project-joyeria-ddd/domain/src/main/java/org/example/joyeria/cliente/events/ProductoAsociado.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pet-project-joyeria-ddd/domain/src/main/java/org/example/joyeria/cliente/events/TipoDeUnaClasificacionCambiada.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pet-project-joyeria-ddd/domain/src/main/java/org/example/joyeria/cliente/events/VendedorAsociado.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pet-project-joyeria-ddd/domain/src/main/java/org/example/joyeria/cliente/values/ClasificacionId.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pet-project-joyeria-ddd/domain/src/main/java/org/example/joyeria/cliente/values/ClienteId.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pet-project-joyeria-ddd/domain/src/main/java/org/example/joyeria/cliente/values/FacteraId.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pet-project-joyeria-ddd/domain/src/main/java/org/example/joyeria/cliente/values/Fecha.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pet-project-joyeria-ddd/domain/src/main/java/org/example/joyeria/cliente/values/Nombre.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pet-project-joyeria-ddd/domain/src/main/java/org/example/joyeria/cliente/values/Tipo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="Desarrollo" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
@@ -22,9 +54,15 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "C:/Users/mmaur/OneDrive/Documentos/Sofka/04_DDD/ddd-pet-project"
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "last_opened_file_path": "/home/john/Desarrollo/Desarrollo_sofka/praticas-java/ddd-pet-project/pet-project-joyeria-ddd/domain/src/main/java/org/example/joyeria"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/pet-project-joyeria-ddd/domain/src/main/java/org/example/joyeria" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -35,5 +73,16 @@
       <updated>1656449654606</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
