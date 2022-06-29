@@ -6,11 +6,13 @@ import org.example.joyeria.vendedor.value.Comentario;
 import org.example.joyeria.vendedor.value.Puntaje;
 
 public class CalificacionAgregada extends DomainEvent {
+    private final CalificacionId entityId;
     private final Puntaje puntaje;
     private final Comentario comentario;
 
     public CalificacionAgregada(CalificacionId entityId, Puntaje puntaje, Comentario comentario) {
         super("joyeria.calificacion.calificacioncreada");
+        this.entityId = entityId;
         this.puntaje = puntaje;
         this.comentario = comentario;
     }
@@ -21,5 +23,9 @@ public class CalificacionAgregada extends DomainEvent {
 
     public Comentario getComentario() {
         return comentario;
+    }
+
+    public CalificacionId getCalificacionId() {
+        return entityId;
     }
 }

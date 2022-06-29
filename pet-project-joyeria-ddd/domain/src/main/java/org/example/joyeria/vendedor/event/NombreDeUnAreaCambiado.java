@@ -5,14 +5,20 @@ import org.example.joyeria.vendedor.value.AreaId;
 import org.example.joyeria.vendedor.value.Nombre;
 
 public class NombreDeUnAreaCambiado extends DomainEvent {
-    public final Nombre nombre;
+    private final AreaId entityId;
+    private final Nombre nombre;
 
     public NombreDeUnAreaCambiado(AreaId entityId, Nombre nombre) {
         super("joyeria.area.nombredeunareacambiado");
         this.nombre = nombre;
+        this.entityId = entityId;
     }
 
     public Nombre getNombre() {
         return nombre;
+    }
+
+    public AreaId getAreaId() {
+        return entityId;
     }
 }

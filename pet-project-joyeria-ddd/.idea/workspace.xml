@@ -5,11 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3312460c-01a3-4556-be91-bb9d7333966d" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../.idea/ddd-pet-project.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/ddd-pet-project.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/domain/src/main/java/org/example/joyeria/vendedor/Vendedor.java" beforeDir="false" afterPath="$PROJECT_DIR$/domain/src/main/java/org/example/joyeria/vendedor/Vendedor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/domain/src/main/java/org/example/joyeria/vendedor/event/AreaAgregada.java" beforeDir="false" afterPath="$PROJECT_DIR$/domain/src/main/java/org/example/joyeria/vendedor/event/AreaAgregada.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/domain/src/main/java/org/example/joyeria/vendedor/event/CalificacionAgregada.java" beforeDir="false" afterPath="$PROJECT_DIR$/domain/src/main/java/org/example/joyeria/vendedor/event/CalificacionAgregada.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/domain/src/main/java/org/example/joyeria/vendedor/event/ComentarioDeUnaCalificacionCambiado.java" beforeDir="false" afterPath="$PROJECT_DIR$/domain/src/main/java/org/example/joyeria/vendedor/event/ComentarioDeUnaCalificacionCambiado.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/domain/src/main/java/org/example/joyeria/vendedor/event/NombreDeUnAreaCambiado.java" beforeDir="false" afterPath="$PROJECT_DIR$/domain/src/main/java/org/example/joyeria/vendedor/event/NombreDeUnAreaCambiado.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/domain/src/main/java/org/example/joyeria/vendedor/event/PuntajeDeUnaCalificacionCambiado.java" beforeDir="false" afterPath="$PROJECT_DIR$/domain/src/main/java/org/example/joyeria/vendedor/event/PuntajeDeUnaCalificacionCambiado.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/domain/src/main/java/org/example/joyeria/vendedor/event/VendedorCreado.java" beforeDir="false" afterPath="$PROJECT_DIR$/domain/src/main/java/org/example/joyeria/vendedor/event/VendedorCreado.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,14 +41,19 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "jdk.selected.JAVA_MODULE": "18",
-    "last_opened_file_path": "C:/Users/Acer/Desktop/ddd-pet-project/pet-project-joyeria-ddd/pom.xml"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;18&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Acer/Desktop/ddd-pet-project/pet-project-joyeria-ddd/pom.xml&quot;
   }
-}]]></component>
+}</component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="org.example.joyeria.vendedor" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.joyeria.Main" />

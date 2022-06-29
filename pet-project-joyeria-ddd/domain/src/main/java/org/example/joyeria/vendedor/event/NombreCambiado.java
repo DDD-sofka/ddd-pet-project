@@ -4,14 +4,15 @@ import co.com.sofka.domain.generic.DomainEvent;
 import org.example.joyeria.vendedor.value.Nombre;
 import org.example.joyeria.vendedor.value.VendedorId;
 
-public class VendedorCreado extends DomainEvent {
+public class NombreCambiado extends DomainEvent {
     private final VendedorId entityId;
     private final Nombre nombre;
 
-    public VendedorCreado(VendedorId entityId, Nombre nombre) {
-        super("joyeria.vendedor.vendedorcreado");
-        this.nombre = nombre;
+
+    public NombreCambiado(VendedorId entityId, Nombre nombre) {
+        super("joyeria.vendedor.nombrecambiado");
         this.entityId = entityId;
+        this.nombre = nombre;
     }
 
     public Nombre getNombre() {
