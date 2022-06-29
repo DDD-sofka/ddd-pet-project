@@ -5,8 +5,24 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3312460c-01a3-4556-be91-bb9d7333966d" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/domain/src/main/java/org/example/joyeria/vendedor/Vendedor.java" beforeDir="false" afterPath="$PROJECT_DIR$/domain/src/main/java/org/example/joyeria/vendedor/Vendedor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/domain/src/main/java/org/example/joyeria/cliente/Clasificacion.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/domain/src/main/java/org/example/joyeria/cliente/Cliente.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/domain/src/main/java/org/example/joyeria/cliente/ClienteChange.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/domain/src/main/java/org/example/joyeria/cliente/Factura.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/domain/src/main/java/org/example/joyeria/cliente/events/ClasificacionAgregada.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/domain/src/main/java/org/example/joyeria/cliente/events/ClienteAgregado.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/domain/src/main/java/org/example/joyeria/cliente/events/FacturaAgregada.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/domain/src/main/java/org/example/joyeria/cliente/events/FechaDeUnaFacturaCambiada.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/domain/src/main/java/org/example/joyeria/cliente/events/NombreDeUnClienteActualizado.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/domain/src/main/java/org/example/joyeria/cliente/events/ProductoAsociado.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/domain/src/main/java/org/example/joyeria/cliente/events/TipoDeUnaClasificacionCambiada.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/domain/src/main/java/org/example/joyeria/cliente/events/VendedorAsociado.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/domain/src/main/java/org/example/joyeria/cliente/values/ClasificacionId.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/domain/src/main/java/org/example/joyeria/cliente/values/ClienteId.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/domain/src/main/java/org/example/joyeria/cliente/values/FacteraId.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/domain/src/main/java/org/example/joyeria/cliente/values/Fecha.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/domain/src/main/java/org/example/joyeria/cliente/values/Nombre.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/domain/src/main/java/org/example/joyeria/cliente/values/Tipo.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -88,5 +104,16 @@
       <updated>1656449994303</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
