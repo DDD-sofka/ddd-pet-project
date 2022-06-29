@@ -7,10 +7,11 @@ pet project de (DDD) creado por:
 
 ![image](https://user-images.githubusercontent.com/70281915/176278822-009f8f4d-6ec5-401e-8b26-e6eebd8b39a5.png)
 
-![image](https://user-images.githubusercontent.com/70281915/176279042-e659c183-306f-4f08-a50c-080f92001b8d.png)
+
+![image](https://user-images.githubusercontent.com/70281915/176461085-52b44664-f0ad-4809-9d1c-7210381202eb.png)
 
 
-![image](https://user-images.githubusercontent.com/70281915/176287481-c0b9d431-937a-4369-8fd4-66d78b6d4550.png)
+![image](https://user-images.githubusercontent.com/70281915/176463363-2459448e-feaf-4071-a38c-4975be7b0767.png)
 
 
 ![image](https://user-images.githubusercontent.com/70281915/176287151-1f0d821d-f1d9-484c-a512-86d2ff3167ad.png)
