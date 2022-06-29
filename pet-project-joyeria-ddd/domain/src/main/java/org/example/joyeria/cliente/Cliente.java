@@ -4,6 +4,8 @@ import co.com.sofka.domain.generic.AggregateEvent;
 import org.example.joyeria.cliente.events.*;
 import org.example.joyeria.cliente.values.ClienteId;
 import org.example.joyeria.cliente.values.Nombre;
+import org.example.joyeria.vendedor.Vendedor;
+import org.example.joyeria.vendedor.value.VendedorId;
 
 import java.util.Set;
 
@@ -12,8 +14,8 @@ public class Cliente  extends AggregateEvent<ClienteId> {
     protected Nombre nombre;
     protected Clasificacion clasificacion;
     protected Factura factura;
-    protected Set<Producto> productos ;
-    protected Vendedor vendedorId;
+    protected Set<ProductoId> productos ;
+    protected VendedorId vendedorId;
 
     public Cliente(ClienteId entityId, Nombre nombre) {
         super(entityId);
@@ -29,8 +31,8 @@ public class Cliente  extends AggregateEvent<ClienteId> {
         return nombre;
     }
 
-    public void asociarVendedor(){
-        appendChange(new VendedorAsociado()).apply();
+    public void asociarVendedor(VendedorId entityId, Nombre nombre){
+        appendChange(new VendedorAsociado(entityId, nombre)).apply();
     }
 
     public void  asociarProducto(){
