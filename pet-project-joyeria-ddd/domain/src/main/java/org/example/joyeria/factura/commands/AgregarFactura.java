@@ -16,6 +16,7 @@ public class AgregarFactura extends Command {
         this.clienteId = clienteId;
     }
 
+
     public FacturaId getEntityId() {
         return entityId;
     }

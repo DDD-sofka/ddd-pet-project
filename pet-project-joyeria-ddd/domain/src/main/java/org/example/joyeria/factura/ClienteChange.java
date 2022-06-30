@@ -8,17 +8,16 @@ import org.example.joyeria.factura.events.TipoDeUnaClasificacionCambiada;
 import org.example.joyeria.factura.events.*;
 
 public class ClienteChange extends EventChange {
-  public ClienteChange(Factura cliente) {
+  public ClienteChange(Factura factura) {
 
     apply(
         (ClienteAgregado event) -> {
-          cliente.nombre = event.getNombre();
-          //            cliente.productos = new HashSet<>();
+          factura.cliente = event.getCliente();
         });
 
     apply(
         (VendedorAsociado event) -> {
-          cliente.vendedorId = event.getVendedorId();
+          factura.vendedorId = event.getVendedorId();
         });
 
     apply(
@@ -28,7 +27,7 @@ public class ClienteChange extends EventChange {
 
     apply(
         (NombreDeUnClienteActualizado event) -> {
-          cliente.nombre = event.getNombre();
+          //factura.nombre = event.getNombre();
         });
 
     apply((ClasificacionAgregada event) -> {});

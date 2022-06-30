@@ -15,12 +15,12 @@ import java.util.Set;
 
 public class Factura extends AggregateEvent<FacturaId> {
 
-  protected NombreCliente nombre;
-  protected Clasificacion clasificacion;
-
+  protected Cliente cliente;
   protected Set<ProductoId> productos;
+
   protected VendedorId vendedorId;
 
+  protected Fecha fecha;
   public Factura(FacturaId entityId, ClienteId clienteId) {
     super(entityId);
     appendChange(new FacturaAgregada(entityId, clienteId)).apply();
@@ -37,9 +37,8 @@ public class Factura extends AggregateEvent<FacturaId> {
     return factura;
   }
 
-
-  public void agregarCliente(NombreCliente nobre) {
-    appendChange(new ClienteAgregado(nombre)).apply();
+  public void agregarCliente(Cliente cliente) {
+    appendChange(new ClienteAgregado(cliente)).apply();
   }
 
   public void asociarVendedor(VendedorId entityId, NombreCliente nombre) {
@@ -58,13 +57,8 @@ public class Factura extends AggregateEvent<FacturaId> {
     appendChange(new ClasificacionAgregada()).apply();
   }
 
-  public Clasificacion clasificacion() {
-    return clasificacion;
-  }
-
   public void cambiarTipoDeUnaClasificacion(Clasificacion clasificacion) {
     appendChange(new TipoDeUnaClasificacionCambiada()).apply();
-    this.clasificacion = clasificacion;
   }
 
   public void cambiarFechaDeUnaFactura(Fecha fecha) {
@@ -86,4 +80,5 @@ public class Factura extends AggregateEvent<FacturaId> {
   public void setVendedorId(VendedorId vendedorId) {
     this.vendedorId = vendedorId;
   }
+
 }
