@@ -5,4 +5,7 @@ import org.example.joyeria.producto.values.ProductoId;
 import org.example.joyeria.producto.values.ProveedorId;
 
 public class Proveedor extends AggregateEvent<ProveedorId> {
+    public Proveedor(ProveedorId entityId) {
+        super(entityId);
+    }
 }

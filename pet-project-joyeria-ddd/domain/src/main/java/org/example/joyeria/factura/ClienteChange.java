@@ -1,20 +1,23 @@
-package org.example.joyeria.cliente;
+package org.example.joyeria.factura;
 
 import co.com.sofka.domain.generic.EventChange;
-import org.example.joyeria.cliente.events.*;
+import org.example.joyeria.factura.events.ClasificacionAgregada;
+import org.example.joyeria.factura.events.FacturaAgregada;
+import org.example.joyeria.factura.events.FechaDeUnaFacturaCambiada;
+import org.example.joyeria.factura.events.TipoDeUnaClasificacionCambiada;
+import org.example.joyeria.factura.events.*;
 
 public class ClienteChange extends EventChange {
-  public ClienteChange(Factura cliente) {
+  public ClienteChange(Factura factura) {
 
     apply(
         (ClienteAgregado event) -> {
-          cliente.nombre = event.getNombre();
-          //            cliente.productos = new HashSet<>();
+          factura.cliente = event.getCliente();
         });
 
     apply(
         (VendedorAsociado event) -> {
-          cliente.vendedorId = event.getVendedorId();
+          factura.vendedorId = event.getVendedorId();
         });
 
     apply(
@@ -24,7 +27,7 @@ public class ClienteChange extends EventChange {
 
     apply(
         (NombreDeUnClienteActualizado event) -> {
-          cliente.nombre = event.getNombre();
+          //factura.nombre = event.getNombre();
         });
 
     apply((ClasificacionAgregada event) -> {});

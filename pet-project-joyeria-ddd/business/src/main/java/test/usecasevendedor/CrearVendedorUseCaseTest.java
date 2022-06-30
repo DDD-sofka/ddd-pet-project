@@ -16,32 +16,24 @@ import org.example.joyeria.vendedor.commands.CrearVendedor;
 @ExtendWith(MockitoExtension.class)
 public class CrearVendedorUseCaseTest {
 
-    @InjectMocks
-    CrearVendedorUseCase useCase;
+  @InjectMocks CrearVendedorUseCase useCase;
 
-    @Test
-    public void cuandoSeCreaUnVendedor(){
-        //arrange
-        VendedorId vendedorId = VendedorId.of( "111111");
-        Nombre nombre= new Nombre("Sebastian");
-        var command = new CrearVendedor( vendedorId,nombre);
+  @Test
+  public void cuandoSeCreaUnVendedor() {
+    // arrange
+    VendedorId vendedorId = VendedorId.of("111111");
+    Nombre nombre = new Nombre("Sebastian");
+    var command = new CrearVendedor(vendedorId, nombre);
 
+    // act
+    var events =
+        UseCaseHandler.getInstance()
+            .syncExecutor(useCase, new RequestCommand<>(command))
+            .orElseThrow()
+            .getDomainEvents();
 
-        //act
-        var events = UseCaseHandler.getInstance()
-                .syncExecutor(useCase, new RequestCommand<>(command))
-                .orElseThrow()
-                .getDomainEvents();
-
-        //assert
-        var event = (VendedorCreado)events.get(0);
-        Assertions.assertEquals("Sebastian", event.getNombre().value());
-
-
-
-
-    }
-
-
-
+    // assert
+    var event = (VendedorCreado) events.get(0);
+    Assertions.assertEquals("Sebastian", event.getNombre().value());
+  }
 }

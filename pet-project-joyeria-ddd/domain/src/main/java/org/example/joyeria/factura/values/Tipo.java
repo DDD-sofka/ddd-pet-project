@@ -1,17 +1,17 @@
-package org.example.joyeria.cliente.values;
+package org.example.joyeria.factura.values;
 
 import co.com.sofka.domain.generic.ValueObject;
 
 import java.util.Objects;
 
-public class NombreCliente implements ValueObject<String> {
+public class Tipo implements ValueObject<String> {
 
     private final String value;
 
-    public NombreCliente(String value){
+    public Tipo(String value){
         this.value = Objects.requireNonNull(value);
         if(this.value.isBlank()){
-            throw new IllegalArgumentException("El nombre no puede estar vacío");
+            throw new IllegalArgumentException("El Tipo no puede estar vacío");
         }
     }
 
@@ -24,7 +24,7 @@ public class NombreCliente implements ValueObject<String> {
     public boolean equals(Object o){
         if(this == o)return true;
         if(o == null || getClass() != o.getClass()) return false;
-        NombreCliente that = (NombreCliente) o;
+        Tipo that = (Tipo) o;
         return Objects.equals(value, that.value);
     }
 

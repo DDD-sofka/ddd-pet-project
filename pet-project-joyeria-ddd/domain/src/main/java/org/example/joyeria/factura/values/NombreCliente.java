@@ -1,17 +1,17 @@
-package org.example.joyeria.cliente.values;
+package org.example.joyeria.factura.values;
 
 import co.com.sofka.domain.generic.ValueObject;
 
 import java.util.Objects;
 
-public class Fecha implements ValueObject<String> {
+public class NombreCliente implements ValueObject<String> {
 
     private final String value;
 
-    public Fecha(String value){
+    public NombreCliente(String value){
         this.value = Objects.requireNonNull(value);
         if(this.value.isBlank()){
-            throw new IllegalArgumentException("La fecha no puede estar vacía");
+            throw new IllegalArgumentException("El nombre no puede estar vacío");
         }
     }
 
@@ -24,7 +24,7 @@ public class Fecha implements ValueObject<String> {
     public boolean equals(Object o){
         if(this == o)return true;
         if(o == null || getClass() != o.getClass()) return false;
-        Fecha that = (Fecha) o;
+        NombreCliente that = (NombreCliente) o;
         return Objects.equals(value, that.value);
     }
 
