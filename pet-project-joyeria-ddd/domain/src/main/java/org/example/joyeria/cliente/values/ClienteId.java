@@ -3,10 +3,17 @@ package org.example.joyeria.cliente.values;
 import co.com.sofka.domain.generic.Identity;
 import co.com.sofka.domain.generic.ValueObject;
 
-public class ClienteId extends Identity implements ValueObject<String> {
+public class ClienteId extends Identity{
 
-    @Override
-    public String value() {
-        return null;
+    public ClienteId(String uuid) {
+        super(uuid);
     }
+
+    public ClienteId() {
+    }
+
+    public static ClienteId of(String id){
+        return new ClienteId(id);
+    }
+
 }

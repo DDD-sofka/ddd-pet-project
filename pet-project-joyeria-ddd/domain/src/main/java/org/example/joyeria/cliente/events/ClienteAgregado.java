@@ -1,21 +1,21 @@
 package org.example.joyeria.cliente.events;
 
 import co.com.sofka.domain.generic.DomainEvent;
-import org.example.joyeria.cliente.values.Nombre;
+import org.example.joyeria.cliente.values.NombreCliente;
 
 public class ClienteAgregado extends DomainEvent {
 
-    protected Nombre nombre;
-    public ClienteAgregado(Nombre nombre) {
+    protected NombreCliente nombre;
+    public ClienteAgregado(NombreCliente nombre) {
         super("joyeria.cliente.clienteagregado");
         this.nombre = nombre;
     }
 
-    public Nombre getNombre() {
+    public NombreCliente getNombre() {
         return nombre;
     }
 
-    public void setNombre(Nombre nombre) {
+    public void setNombre(NombreCliente nombre) {
         this.nombre = nombre;
     }
 }
