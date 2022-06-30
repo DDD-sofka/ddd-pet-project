@@ -1,9 +1,10 @@
 package org.example.joyeria.vendedor.commands;
 
+import co.com.sofka.domain.generic.Command;
 import org.example.joyeria.vendedor.values.Nombre;
 import org.example.joyeria.vendedor.values.VendedorId;
 
-public class CrearVendedor {
+public class CrearVendedor extends Command {
     private final VendedorId entityId;
     private final Nombre nombre;
 
