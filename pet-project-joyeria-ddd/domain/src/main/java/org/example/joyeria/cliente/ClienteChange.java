@@ -3,10 +3,8 @@ package org.example.joyeria.cliente;
 import co.com.sofka.domain.generic.EventChange;
 import org.example.joyeria.cliente.events.*;
 
-import java.util.HashSet;
-
 public class ClienteChange extends EventChange {
-  public ClienteChange(Cliente cliente) {
+  public ClienteChange(Factura cliente) {
 
     apply(
         (ClienteAgregado event) -> {

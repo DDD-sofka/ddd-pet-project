@@ -4,14 +4,14 @@ import co.com.sofka.domain.generic.ValueObject;
 
 import java.util.Objects;
 
-public class Tipo implements ValueObject<String> {
+public class NombreCliente implements ValueObject<String> {
 
     private final String value;
 
-    public Tipo(String value){
+    public NombreCliente(String value){
         this.value = Objects.requireNonNull(value);
         if(this.value.isBlank()){
-            throw new IllegalArgumentException("El Tipo no puede estar vacío");
+            throw new IllegalArgumentException("El nombre no puede estar vacío");
         }
     }
 
@@ -24,7 +24,7 @@ public class Tipo implements ValueObject<String> {
     public boolean equals(Object o){
         if(this == o)return true;
         if(o == null || getClass() != o.getClass()) return false;
-        Tipo that = (Tipo) o;
+        NombreCliente that = (NombreCliente) o;
         return Objects.equals(value, that.value);
     }
 

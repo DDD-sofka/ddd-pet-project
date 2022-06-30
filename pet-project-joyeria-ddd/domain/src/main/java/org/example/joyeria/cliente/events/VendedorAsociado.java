@@ -1,27 +1,25 @@
 package org.example.joyeria.cliente.events;
 
 import co.com.sofka.domain.generic.DomainEvent;
-import org.example.joyeria.cliente.values.Nombre;
+import org.example.joyeria.cliente.values.NombreCliente;
 import org.example.joyeria.vendedor.value.VendedorId;
-
-import java.util.UUID;
 
 public class VendedorAsociado extends DomainEvent {
 
   VendedorId vendedorId;
-  Nombre nombre;
+  NombreCliente nombre;
 
-  public VendedorAsociado(VendedorId vendedorId, Nombre nombre) {
+  public VendedorAsociado(VendedorId vendedorId, NombreCliente nombre) {
     super("joyeria.cliente.vendedorasociado");
     this.vendedorId = vendedorId;
     this.nombre = nombre;
   }
 
-  public Nombre getNombre() {
+  public NombreCliente getNombre() {
     return nombre;
   }
 
-  public void setNombre(Nombre nombre) {
+  public void setNombre(NombreCliente nombre) {
     this.nombre = nombre;
   }
 
