@@ -1,0 +1,100 @@
+[33mcommit 1a839f9382b471d3d7f91572075cd38ba9b99a2a[m[33m ([m[1;36mHEAD -> [m[1;32mSebastian[m[33m, [m[1;31morigin/Sebastian[m[33m)[m
+Author: unknown <sbarrera.96@hotmail.com>
+Date:   Wed Jun 29 20:14:01 2022 -0500
+
+    Caso de uso y prueba CrearVendedor
+
+[33mcommit 3f030132196228a206901215cab83364d943e8b9[m
+Author: unknown <sbarrera.96@hotmail.com>
+Date:   Wed Jun 29 18:34:38 2022 -0500
+
+    Comandos y objetos de valor listos
+
+[33mcommit 8a65bbea5197284e32d265dd691d51e614bc199e[m
+Author: unknown <sbarrera.96@hotmail.com>
+Date:   Wed Jun 29 17:35:41 2022 -0500
+
+    Delete non-sense information
+
+[33mcommit 3f270a174707aa4e1dcf992c7c7ab25e5cfc5ba9[m
+Author: unknown <sbarrera.96@hotmail.com>
+Date:   Wed Jun 29 17:24:24 2022 -0500
+
+    Agregado root Vendedor
+
+[33mcommit 06b3e6075367ede51aa4706ee6b9aacf2692a2b7[m
+Merge: b9a6596 82f0f97
+Author: unknown <sbarrera.96@hotmail.com>
+Date:   Wed Jun 29 16:44:40 2022 -0500
+
+    Merge branch 'Sebastian' of https://github.com/DDD-sofka/ddd-pet-project into Sebastian
+
+[33mcommit b9a659635817fbdafb981c46148a45dcdba97809[m
+Author: unknown <sbarrera.96@hotmail.com>
+Date:   Wed Jun 29 16:36:42 2022 -0500
+
+    Clase VendedorChange para cambiar los estados en el agregado
+
+[33mcommit 82f0f97ffcd80937aa90eb1545d7efacc511971a[m
+Merge: 30b12f6 b0683f2
+Author: John Esteban Alvarez Piedrahita <70281915+JohnEstebanAP@users.noreply.github.com>
+Date:   Wed Jun 29 13:13:40 2022 -0500
+
+    Merge branch 'Desarrollo' into Sebastian
+
+[33mcommit b0683f2103fca69b1f8bbd08ee04ebc1498dad77[m
+Merge: 1bde24a 0f41ede
+Author: John Esteban Alvarez Piedrahita <70281915+JohnEstebanAP@users.noreply.github.com>
+Date:   Wed Jun 29 13:08:50 2022 -0500
+
+    Merge pull request #2 from DDD-sofka/John_esteban
+    
+    [AR]cliente parte 1
+
+[33mcommit 0f41ede35e278ac022a30e8bdad37512a7de1128[m
+Author: John Esteban Alvarez Piedrahita <esteban.ea145@gmail.com>
+Date:   Wed Jun 29 13:05:32 2022 -0500
+
+    [AR]cliente parte 1
+
+[33mcommit 30b12f63754ee6faa63b5d5671ffc22e0d640a92[m
+Author: unknown <sbarrera.96@hotmail.com>
+Date:   Wed Jun 29 11:43:37 2022 -0500
+
+    Creacion de entidades, eventos de dominio y objetos de valor
+
+[33mcommit 1bde24ad4fcdf09403337da67dbce1eda23464f4[m
+Author: John Esteban Alvarez Piedrahita <70281915+JohnEstebanAP@users.noreply.github.com>
+Date:   Wed Jun 29 09:35:16 2022 -0500
+
+    Update README.md
+
+[33mcommit c88094ad3edc3f0dcb9450e7c6dba1f88e16fe05[m[33m ([m[1;32mmain[m[33m)[m
+Author: mmaurogg <mmaurogg@gmail.com>
+Date:   Tue Jun 28 16:11:38 2022 -0500
+
+    creado Proyecto
+
+[33mcommit 088647efd06f94cb4bb7ac44b678374a7cef3e4a[m
+Author: John Esteban Alvarez Piedrahita <70281915+JohnEstebanAP@users.noreply.github.com>
+Date:   Tue Jun 28 16:04:55 2022 -0500
+
+    Update README.md
+
+[33mcommit 52b3c224436ddb06ee0a009c347c48115c4600b8[m
+Author: John Esteban Alvarez Piedrahita <70281915+JohnEstebanAP@users.noreply.github.com>
+Date:   Tue Jun 28 15:30:26 2022 -0500
+
+    Update README.md
+
+[33mcommit e9a10dc027498935aee350e94eb7a85e06105355[m
+Author: John Esteban Alvarez Piedrahita <70281915+JohnEstebanAP@users.noreply.github.com>
+Date:   Tue Jun 28 15:26:59 2022 -0500
+
+    Update README.md
+
+[33mcommit 09c6611ce46eb9f4c87834212e3c63aa257828fa[m
+Author: John Esteban Alvarez Piedrahita <70281915+JohnEstebanAP@users.noreply.github.com>
+Date:   Tue Jun 28 15:13:30 2022 -0500
+
+    Initial commit

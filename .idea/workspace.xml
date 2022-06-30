@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="47118781-813f-4a44-955a-41bd7b394e56" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/ddd-pet-project.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/ddd-pet-project.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="47118781-813f-4a44-955a-41bd7b394e56" name="Changes" comment="[AR]cliente parte 2 || ClienteChange">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pet-project-joyeria-ddd/domain/src/main/java/org/example/joyeria/cliente/Factura.java" beforeDir="false" afterPath="$PROJECT_DIR$/pet-project-joyeria-ddd/domain/src/main/java/org/example/joyeria/cliente/Factura.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,7 +16,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="Desarrollo" />
+        <entry key="$PROJECT_DIR$" value="Sebastian" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -34,6 +33,7 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SONARLINT_PRECOMMIT_ANALYSIS": "true",
     "last_opened_file_path": "C:/Users/Acer/Desktop/ddd-pet-project",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
@@ -75,6 +75,14 @@
       <option name="presentableId" value="Default" />
       <updated>1656449654606</updated>
     </task>
+    <task id="LOCAL-00001" summary="[AR]cliente parte 2 || ClienteChange">
+      <created>1656533556300</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1656533556300</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -82,10 +90,26 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="origin/mmaurogg" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="[AR]cliente parte 2 || ClienteChange" />
+    <option name="LAST_COMMIT_MESSAGE" value="[AR]cliente parte 2 || ClienteChange" />
   </component>
 </project>
