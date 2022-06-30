@@ -22,5 +22,4 @@ public class Material extends Entity<MaterialId> {
         super(id);
     } //min 40
 
-    public void
 }

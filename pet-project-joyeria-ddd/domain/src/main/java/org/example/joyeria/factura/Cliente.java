@@ -1,8 +1,8 @@
-package org.example.joyeria.cliente;
+package org.example.joyeria.factura;
 
 import co.com.sofka.domain.generic.Entity;
-import org.example.joyeria.cliente.values.ClienteId;
-import org.example.joyeria.cliente.values.NombreCliente;
+import org.example.joyeria.factura.values.ClienteId;
+import org.example.joyeria.factura.values.NombreCliente;
 
 public class Cliente extends Entity<ClienteId> {
 

@@ -1,7 +1,11 @@
-package org.example.joyeria.cliente;
+package org.example.joyeria.factura;
 
 import co.com.sofka.domain.generic.EventChange;
-import org.example.joyeria.cliente.events.*;
+import org.example.joyeria.factura.events.ClasificacionAgregada;
+import org.example.joyeria.factura.events.FacturaAgregada;
+import org.example.joyeria.factura.events.FechaDeUnaFacturaCambiada;
+import org.example.joyeria.factura.events.TipoDeUnaClasificacionCambiada;
+import org.example.joyeria.factura.events.*;
 
 public class ClienteChange extends EventChange {
   public ClienteChange(Factura cliente) {

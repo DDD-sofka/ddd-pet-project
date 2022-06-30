@@ -1,9 +1,9 @@
-package org.example.joyeria.cliente.commands;
+package org.example.joyeria.factura.commands;
 
 import co.com.sofka.domain.generic.Command;
-import org.example.joyeria.cliente.Clasificacion;
-import org.example.joyeria.cliente.values.ClienteId;
-import org.example.joyeria.cliente.values.FacturaId;
+import org.example.joyeria.factura.Clasificacion;
+import org.example.joyeria.factura.values.ClienteId;
+import org.example.joyeria.factura.values.FacturaId;
 
 public class CambiarTipoDeUnaClasificacion extends Command {
     private final FacturaId facturaId;

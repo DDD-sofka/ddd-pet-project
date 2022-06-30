@@ -1,4 +1,4 @@
-package org.example.joyeria.cliente.commands;
+package org.example.joyeria.factura.commands;
 
 import co.com.sofka.domain.generic.Command;
 

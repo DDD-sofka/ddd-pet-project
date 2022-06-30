@@ -1,4 +1,4 @@
-package org.example.joyeria.cliente.events;
+package org.example.joyeria.factura.events;
 
 import co.com.sofka.domain.generic.DomainEvent;
 
