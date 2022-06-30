@@ -12,15 +12,27 @@ public class Material extends Entity<MaterialId> {
     private TipoMaterial tipoMaterial;
     private Descripcion descripcion;
 
-    protected Material(MaterialId id, TipoMaterial tipoMaterial, Descripcion descripcion) {
+    public Material(MaterialId id, TipoMaterial tipoMaterial, Descripcion descripcion) {
         super(id);
         this.tipoMaterial = Objects.requireNonNull(tipoMaterial);
-        this.descripcion = descripcion;
+        this.descripcion = Objects.requireNonNull(descripcion);
     }
 
-    public Material(MaterialId id) {
-        super(id);
-    } //min 40
+    public void cambiarTipoMaterial(TipoMaterial tipoMaterial){
+        this.tipoMaterial = Objects.requireNonNull(tipoMaterial);
+    }
 
-    public void
+    public void cambiarDescripcion(Descripcion descripcion){
+        this.descripcion = Objects.requireNonNull(descripcion);
+    }
+
+
+    public Descripcion Descripcion() {
+        return descripcion;
+    }
+
+    public TipoMaterial TipoMaterial() {
+        return tipoMaterial;
+    }
+
 }
