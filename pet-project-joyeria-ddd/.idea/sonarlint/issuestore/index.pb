@@ -41,7 +41,3 @@ x
 Hdomain/src/main/java/org/example/joyeria/vendedor/values/VendedorId.java,6\5\65d02d81c57fb51d0ddc6799f4fe5ec6fd4cebd2
 t
 Ddomain/src/main/java/org/example/joyeria/vendedor/values/Nombre.java,2\2\2259da4a9b276e668d87ff318c3125c517959287
-…
-Ubusiness/src/main/java/org/example/joyeria/usecasevvendedor/CrearVendedorUseCase.java,b\b\bbefb40a127a040dc936815fccb92819a39e79b5
-y
-Ibusiness/src/main/java/test/usecasevendedor/CrearVendedorUseCaseTest.java,0\8\085ddd4cc272dc37a03948970a7a2ac6ee6b725d
