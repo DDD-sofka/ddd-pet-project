@@ -14,6 +14,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
@@ -33,6 +34,8 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
     "jdk.selected.JAVA_MODULE": "18",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.0",
@@ -44,6 +47,35 @@
     <key name="CreateClassDialog.RecentsKey">
       <recent name="org.example.joyeria.producto" />
     </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="org.example.joyeria.producto" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="AgregarMaterialUseCaseTest.cuandoAgregarMaterialAlProducto" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="business" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.joyeria.producto.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example.joyeria.producto" />
+      <option name="MAIN_CLASS_NAME" value="org.example.joyeria.producto.AgregarMaterialUseCaseTest" />
+      <option name="METHOD_NAME" value="cuandoAgregarMaterialAlProducto" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.AgregarMaterialUseCaseTest.cuandoAgregarMaterialAlProducto" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">

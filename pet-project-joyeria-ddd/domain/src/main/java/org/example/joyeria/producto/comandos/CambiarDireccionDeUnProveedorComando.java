@@ -1,20 +1,20 @@
 package org.example.joyeria.producto.comandos;
 
 import co.com.sofka.domain.generic.Command;
-import org.example.joyeria.producto.values.Nombre;
+import org.example.joyeria.producto.values.Direccion;
 import org.example.joyeria.producto.values.ProductoId;
 import org.example.joyeria.producto.values.ProveedorId;
 
-public class CambiarNombtrDeUnProveedor extends Command {
+public class CambiarDireccionDeUnProveedorComando extends Command {
 
     private final ProductoId productoId;
     private final ProveedorId proveedorId;
-    private final Nombre nombre;
+    private final Direccion direccion;
 
-    public CambiarNombtrDeUnProveedor(ProductoId productoId, ProveedorId ProveedorId, Nombre nombre ) {
+    public CambiarDireccionDeUnProveedorComando(ProductoId productoId, ProveedorId proveedorId, Direccion direccion) {
         this.productoId = productoId;
-        proveedorId = ProveedorId;
-        this.nombre = nombre;
+        this.proveedorId = proveedorId;
+        this.direccion = direccion;
     }
 
     public ProductoId getProductoId() {
@@ -25,7 +25,7 @@ public class CambiarNombtrDeUnProveedor extends Command {
         return proveedorId;
     }
 
-    public Nombre getNombre() {
-        return nombre;
+    public Direccion getDireccion() {
+        return direccion;
     }
 }

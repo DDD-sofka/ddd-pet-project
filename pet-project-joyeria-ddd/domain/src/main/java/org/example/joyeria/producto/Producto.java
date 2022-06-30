@@ -30,11 +30,11 @@ public class Producto extends AggregateEvent<ProductoId> {
         return producto;
     }
 
-    public void agregarMaterial (MaterialId id, TipoMaterial tipoMaterial, Descripcion descripcion){
-        Objects.requireNonNull(id);
+    public void agregarMaterial (MaterialId materialId, TipoMaterial tipoMaterial, Descripcion descripcion){
+        Objects.requireNonNull(materialId);
         Objects.requireNonNull(tipoMaterial);
         Objects.requireNonNull(descripcion);
-        appendChange(new MaterialAgregado(id, tipoMaterial, descripcion)).apply();
+        appendChange(new MaterialAgregado(materialId, tipoMaterial, descripcion)).apply();
     }
 
     public void agregarProveedor (ProveedorId id, Nombre nombre, Direccion direccion){

@@ -1,23 +1,24 @@
 package org.example.joyeria.producto.comandos;
 
 import co.com.sofka.domain.generic.Command;
-import org.example.joyeria.producto.values.Precio;
 import org.example.joyeria.producto.values.ProductoId;
+import org.example.joyeria.producto.values.Stock;
 
-public class CambiarPrecio extends Command {
+public class CambiarStockComando extends Command {
+
     private final ProductoId productoId;
-    private final Precio precio;
+    private final Stock stock;
 
-    public CambiarPrecio(ProductoId productoId, Precio precio) {
+    public CambiarStockComando(ProductoId productoId, Stock stock) {
         this.productoId = productoId;
-        this.precio = precio;
+        this.stock = stock;
     }
 
     public ProductoId getProductoId() {
         return productoId;
     }
 
-    public Precio getPrecio() {
-        return precio;
+    public Stock getStock() {
+        return stock;
     }
 }

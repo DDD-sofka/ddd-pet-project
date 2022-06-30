@@ -4,18 +4,15 @@ import co.com.sofka.domain.generic.Command;
 import org.example.joyeria.producto.values.Descripcion;
 import org.example.joyeria.producto.values.MaterialId;
 import org.example.joyeria.producto.values.ProductoId;
-import org.example.joyeria.producto.values.TipoMaterial;
 
-public class AgregarMaterial extends Command {
+public class CambiarDescripcionDeUnMaterialComando extends Command {
     private final ProductoId productoId;
-    private final MaterialId id;
-    private final TipoMaterial tipoMaterial;
+    private final MaterialId materialId;
     private final Descripcion descripcion;
 
-    public AgregarMaterial(ProductoId productoId, MaterialId id, TipoMaterial tipoMaterial, Descripcion descripcion) {
+    public CambiarDescripcionDeUnMaterialComando(ProductoId productoId, MaterialId materialId, Descripcion descripcion) {
         this.productoId = productoId;
-        this.id = id;
-        this.tipoMaterial = tipoMaterial;
+        this.materialId = materialId;
         this.descripcion = descripcion;
     }
 
@@ -23,12 +20,8 @@ public class AgregarMaterial extends Command {
         return productoId;
     }
 
-    public MaterialId getId() {
-        return id;
-    }
-
-    public TipoMaterial getTipoMaterial() {
-        return tipoMaterial;
+    public MaterialId getMaterialId() {
+        return materialId;
     }
 
     public Descripcion getDescripcion() {

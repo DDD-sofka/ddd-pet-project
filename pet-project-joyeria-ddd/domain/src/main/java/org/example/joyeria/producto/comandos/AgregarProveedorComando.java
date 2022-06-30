@@ -6,13 +6,13 @@ import org.example.joyeria.producto.values.Nombre;
 import org.example.joyeria.producto.values.ProductoId;
 import org.example.joyeria.producto.values.ProveedorId;
 
-public class AgregarProveedor extends Command {
+public class AgregarProveedorComando extends Command {
     private final ProductoId productoId;
     private final ProveedorId id;
     private final Nombre nombre;
     private final Direccion direccion;
 
-    public AgregarProveedor(ProductoId productoId, ProveedorId id, Nombre nombre, Direccion direccion) {
+    public AgregarProveedorComando(ProductoId productoId, ProveedorId id, Nombre nombre, Direccion direccion) {
         this.productoId = productoId;
         this.id = id;
         this.nombre = nombre;
