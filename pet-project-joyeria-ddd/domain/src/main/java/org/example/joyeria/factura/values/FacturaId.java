@@ -1,14 +1,14 @@
-package org.example.joyeria.cliente.values;
+package org.example.joyeria.factura.values;
 
 import co.com.sofka.domain.generic.Identity;
 
 public class FacturaId extends Identity {
 
-    public FacturaId(String uuid) {
-        super(uuid);
+    public FacturaId() {
     }
 
-    public FacturaId() {
+    public FacturaId(String uuid) {
+        super(uuid);
     }
 
     public static FacturaId of(String id){

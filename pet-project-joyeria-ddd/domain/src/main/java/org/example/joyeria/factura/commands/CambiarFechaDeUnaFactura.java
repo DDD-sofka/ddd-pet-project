@@ -1,8 +1,8 @@
-package org.example.joyeria.cliente.commands;
+package org.example.joyeria.factura.commands;
 
 import co.com.sofka.domain.generic.Command;
-import org.example.joyeria.cliente.values.FacturaId;
-import org.example.joyeria.cliente.values.Fecha;
+import org.example.joyeria.factura.values.FacturaId;
+import org.example.joyeria.factura.values.Fecha;
 
 public class CambiarFechaDeUnaFactura extends Command {
 

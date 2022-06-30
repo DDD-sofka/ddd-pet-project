@@ -1,7 +1,7 @@
-package org.example.joyeria.cliente.events;
+package org.example.joyeria.factura.events;
 
 import co.com.sofka.domain.generic.DomainEvent;
-import org.example.joyeria.cliente.values.NombreCliente;
+import org.example.joyeria.factura.values.NombreCliente;
 
 public class NombreDeUnClienteActualizado extends DomainEvent {
 

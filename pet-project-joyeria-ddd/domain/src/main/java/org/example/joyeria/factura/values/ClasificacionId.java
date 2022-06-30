@@ -1,4 +1,4 @@
-package org.example.joyeria.cliente.values;
+package org.example.joyeria.factura.values;
 
 import co.com.sofka.domain.generic.Identity;
 

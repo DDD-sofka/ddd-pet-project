@@ -1,11 +1,9 @@
-package org.example.joyeria.cliente.commands;
+package org.example.joyeria.factura.commands;
 
 import co.com.sofka.domain.generic.Command;
-import org.example.joyeria.cliente.Factura;
-import org.example.joyeria.cliente.values.ClienteId;
-import org.example.joyeria.cliente.values.FacturaId;
-import org.example.joyeria.cliente.values.NombreCliente;
-import org.example.joyeria.vendedor.value.Nombre;
+import org.example.joyeria.factura.values.ClienteId;
+import org.example.joyeria.factura.values.FacturaId;
+import org.example.joyeria.factura.values.NombreCliente;
 
 public class ActualizarNombreDeUnCliente extends Command {
 
